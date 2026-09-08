@@ -7,6 +7,5 @@ int clamp_speed(int target_speed)
     if (target_speed < -1000){
         retrurn -1000;
     }
-    /* TODO: 超出范围时返回对应边界，否则返回原值。 */
     return target_speed;
 }
