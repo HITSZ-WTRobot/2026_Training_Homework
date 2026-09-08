@@ -6,5 +6,6 @@ int clamp_speed(int target_speed)
 		 target_speed = 1000;
 	if (target_speed < -1000)
 		 target_speed = -1000;
+    
     return target_speed;
 }
