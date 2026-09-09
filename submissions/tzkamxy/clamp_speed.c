@@ -30,3 +30,4 @@ cout<<clamp_speed(1000)<<endl;
 cout<<clamp_speed(-1000);
 
 }
+
