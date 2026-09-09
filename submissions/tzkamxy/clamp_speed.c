@@ -19,15 +19,3 @@ int clamp_speed(int target_speed)
 
 
 }
-
-int main()
-{
-cout<<clamp_speed(1500)<<endl;
-cout<<clamp_speed(-1000)<<endl;
-cout<<clamp_speed(300)<<endl;
-cout<<clamp_speed(0)<<endl;
-cout<<clamp_speed(1000)<<endl;
-cout<<clamp_speed(-1000);
-
-}
-
