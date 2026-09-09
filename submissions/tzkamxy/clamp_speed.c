@@ -1,5 +1,3 @@
-#include<iostream>
-using namespace std;
 int clamp_speed(int target_speed)
 {
     if(target_speed>1000)
